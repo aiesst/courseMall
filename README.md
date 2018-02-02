@@ -1,6 +1,9 @@
-# courseMall
+# CourseMall
 
-> 1.修复移动适配的modal  2018/1/26
-> 2.用户注册功能实现  2018/1/29
-> 3.地址添加功能实现  2018/2/01
+```bash
+1. repair mobile adaptable modal; 2018/1/26
 
+2. user registration function realization; 2018/1/29
+
+3. address add function realization; 2018/2/01
+```
