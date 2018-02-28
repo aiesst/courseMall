@@ -201,13 +201,13 @@ a:hover {
 
 .main-im .im_main .weixing-show {
   width: 112px;
-  height: 172px;
+  height: 152px;
   background: #ffffff;
   border-radius: 10px;
   border: 1px solid #dddddd;
   position: absolute;
   left: -125px;
-  top: -126px;
+  top: -106px;
 }
 
 .main-im .im_main .weixing-show .weixing-sanjiao {
