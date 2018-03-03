@@ -287,7 +287,7 @@ a:hover {
 .main-im .open-im {
   cursor: pointer;
   margin-left: 68px;
-  width: 32px;
-  height: 160px;
+  width: 42px;
+  height: 198px;
   background: url(../images/open_im.png) no-repeat left top;
 }
