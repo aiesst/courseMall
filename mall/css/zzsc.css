@@ -95,14 +95,14 @@ a:hover {
   right: 10px;
   top: 300px;
   z-index: 100;
-  width: 110px;
+  width: 100px;
   height: 272px;
 }
 
 .main-im .qq-a {
   display: block;
-  width: 106px;
-  height: 116px;
+  width: 98px;
+  height: 88px;
   font-size: 14px;
   color: #0484cd;
   text-align: center;
@@ -121,7 +121,7 @@ a:hover {
   height: 70px;
   border-radius: 35px;
   position: absolute;
-  left: 18px;
+  left: 14px;
   top: 10px;
   overflow: hidden;
   z-index: 9;
@@ -130,8 +130,8 @@ a:hover {
 .main-im .qq-container {
   z-index: 99;
   position: absolute;
-  width: 109px;
-  height: 118px;
+  width: 100px;
+  height: 90px;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   border-bottom: 1px solid #dddddd;
@@ -190,7 +190,7 @@ a:hover {
 }
 
 .main-im .im_main .weixing-container {
-  width: 55px;
+  width: 50px;
   height: 47px;
   border-right: 1px solid #dddddd;
   background: #f5f5f5;
@@ -250,7 +250,7 @@ a:hover {
 }
 
 .main-im .im_main .go-top {
-  width: 50px;
+  width: 47px;
   height: 47px;
   background: #f5f5f5;
   border-bottom-right-radius: 10px;
@@ -260,13 +260,13 @@ a:hover {
 
 .main-im .im_main .go-top a {
   display: block;
-  width: 52px;
+  width: 49px;
   height: 47px;
 }
 
 .main-im .close-im {
   position: absolute;
-  right: 10px;
+  right: -4px;
   top: -12px;
   z-index: 100;
   width: 24px;
