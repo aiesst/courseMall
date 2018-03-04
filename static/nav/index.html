@@ -1,0 +1,88 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>jquery延时载入动画焦点图 - A5源码</title>
+<link rel="stylesheet" href="zzsc.css" type="text/css"></link>
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.8.3.min.js"></script> 
+<script type="text/javascript" src="jquery.DB_tabMotionBanner.min.js"></script>
+</head>
+<body>
+ 
+ 
+<div class="DB_tab25">
+	<ul class="DB_bgSet">
+		<li style="background:url('img/bg1.jpg') no-repeat 49% 0"></li>
+		<li style="background:url('img/bg2.jpg') no-repeat 49% 0"></li>
+		<li style="background:url('img/bg3.jpg') no-repeat 49% 0"></li>
+		<li style="background:url('img/bg4.jpg') no-repeat 49% 0"></li>
+	</ul>
+
+	<ul class="DB_imgSet">
+		<li>
+				<a href="#"><img class="DB_1_1" src="img/move1.png" alt=""/></a>
+				<img class="DB_1_2" src="img/move2.png" alt=""/>
+				<img class="DB_1_3" src="img/move3.png" alt=""/>		</li>
+		<li>
+				<img class="DB_2_1" src="img/move1.png" alt=""/>
+				<img class="DB_2_2" src="img/move2.png" alt=""/>
+				<img class="DB_2_3" src="img/move3.png" alt=""/>		</li>
+		<li>
+				<img class="DB_3_1" src="img/move1.png" alt=""/>
+				<img class="DB_3_2" src="img/move2.png" alt=""/>
+				<img class="DB_3_3" src="img/move3.png" alt=""/>		</li>
+		<li>
+				<img class="DB_4_1" src="img/move1.png" alt=""/>
+				<img class="DB_4_2" src="img/move2.png" alt=""/>
+				<img class="DB_4_3" src="img/move2.png" alt=""/>
+				<img class="DB_4_4" src="img/move2.png" alt=""/>
+				<img class="DB_4_5" src="img/move3.png" alt=""/>		</li>
+	</ul>
+	<div class="DB_menuWrap">
+		<ul class="DB_menuSet">
+			<li><img src="img/btn_off.gif" alt=""/></li>
+			<li><img src="img/btn_off.gif" alt=""/></li>
+			<li><img src="img/btn_off.gif" alt=""/></li>
+			<li><img src="img/btn_off.gif" alt=""/></li>
+		</ul>
+		<div class="DB_next"><img src="img/nextArrow.png" alt="NEXT"/></div>
+		<div class="DB_prev"><img src="img/prevArrow.png" alt="PREV"/></div>
+	</div>
+</div>
+<script type="text/javascript">
+		$('.DB_tab25').DB_tabMotionBanner({
+			key:'b28551',
+			autoRollingTime:10000,                            
+			bgSpeed:500,
+			motion:
+			{
+				
+				DB_1_1:{left:-50,opacity:0,speed:1000,delay:500},
+				DB_1_2:{left:-50,opacity:0,speed:1000,delay:1000},
+				DB_1_3:{left:100,opacity:0,speed:1000,delay:1500},
+
+				DB_2_1:{top:50,opacity:0,speed:1000,delay:500},
+				DB_2_2:{top:50,opacity:0,speed:1000,delay:1000},
+				DB_2_3:{left:100,opacity:0,speed:1000,delay:1500},
+
+				DB_3_1:{left:-50,opacity:0,speed:1000,delay:500},
+				DB_3_2:{top:50,opacity:0,speed:1000,delay:1000},
+				DB_3_3:{left:100,opacity:0,speed:1000,delay:1500},
+
+				DB_4_1:{left:-50,opacity:0,speed:1000,delay:500},
+				DB_4_2:{left:-50,opacity:0,speed:1000,delay:1000},
+				DB_4_3:{left:-50,opacity:0,speed:1000,delay:1500},
+				DB_4_4:{left:-50,opacity:0,speed:1000,delay:2000},
+				DB_4_5:{left:100,opacity:0,speed:1000,delay:3000},
+
+				end:null
+			}
+			
+		})
+</script>
+<div style="text-align:center;margin:50px 0; font:normal 14px/24px 'MicroSoft YaHei';">
+<p>适用浏览器：IE8、360、FireFox、Chrome、Safari、Opera、傲游、搜狗、世界之窗.</p>
+<p>来源：<a href="http://down.admin5.com/" target="_blank">A5源码</a></p>
+</div>
+</body>
+</html>
