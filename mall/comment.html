@@ -1,35 +1,52 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]><html class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
-<!--[if IE 7]><html class="lt-ie9 lt-ie8"><![endif]-->
-<!--[if IE 8]><html class="lt-ie9"><![endif]-->
-<!--[if gt IE 8]><!--><html><!--<![endif]-->
+<!--[if lt IE 7]>
+<html class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]>
+<html class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]>
+<html class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html><!--<![endif]-->
 <head>
-<title>CourseMall</title>
-<meta charset="utf-8">
+  <title>CourseMall</title>
+  <meta charset="utf-8">
 
-<link rel="stylesheet" href="css/foundation.min.css">
-<link rel="stylesheet" href="css/superfish.css">
-<link rel="stylesheet" href="css/stylesheet.css">
+  <link rel="stylesheet" href="css/foundation.min.css">
+  <link rel="stylesheet" href="css/superfish.css">
+  <link rel="stylesheet" href="css/stylesheet.css">
 
-<link href='http://fonts.useso.com/css?family=Roboto:400,100,300,500,700' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.useso.com/css?family=Roboto:400,100,300,500,700' rel='stylesheet' type='text/css'>
 
-<script>
-Modernizr.load({
-    // test if browser understands media queries
-    test: Modernizr.mq('only all'),
-    // if not load ie8-grid
-    nope: 'css/ie8-grid-foundation-4.css'
-});
-</script>
-<!--[if lt IE 9]>
-<link rel="stylesheet" href="css/ie-fixes.css">
-<![endif]-->
+  <!--小鱼动画-->
+  <link href="../static/fish/fish.css" rel="stylesheet" type="text/css"/>
+
+  <script>
+    Modernizr.load({
+      // test if browser understands media queries
+      test: Modernizr.mq('only all'),
+      // if not load ie8-grid
+      nope: 'css/ie8-grid-foundation-4.css'
+    });
+  </script>
+  <!--[if lt IE 9]>
+
+  <link rel="icon" type="image/png" href="../static/favicon.png"/>
+  <link rel="stylesheet" href="css/ie-fixes.css">
+  <![endif]-->
 </head>
 <body>
-<div class="row outterWrapper">
+
+
+<div class="fishbox">
+  <div class="fish"></div>
+</div>
+
+
+<div class="row outterWrapper" style="margin-top:10px">
   <div class="columns large-12">
     <div class="row header-row">
-      <div class="columns header-inner large-12" style="padding: 10px 20px!important;"> <a href="../"><img src="images/logo.png" alt=""></a> </div>
+      <div class="columns header-inner large-12" style="padding: 10px 20px!important;"><a href="../"><img
+        src="images/logo.png" alt=""></a></div>
     </div>
     <div class="row menu-row">
       <div class="columns top-menu large-12 top-nav">
@@ -40,18 +57,22 @@ Modernizr.load({
   </div>
   <div class="columns large-12">
     <div class="row flexslider-row">
-      <div class="columns large-12 flexslider-inner">
+      <div class="columns large-12 flexslider-inner"
+           style="background: url(images/bg2.jpg) no-repeat scroll center center;">
         <div class="row">
           <div class="columns large-6">
-            <ul class="slides">
-              <li> <img src="images/slide.jpg" alt=""> </li>
+            <ul class="slides" style="    border-radius: 6px;">
+              <li><img src="images/slide.jpg" alt=""></li>
             </ul>
           </div>
-          <div class="columns large-6 slider-text-box">
+          <div class="columns large-6 slider-text-box" style="padding-bottom: 20px;">
             <h3>WELCOME TO CourseMall</h3>
             <h4>Make the results better</h4>
-            <p style="margin: 30px 0px 30px 0">Your time is limited, so don't live for others. Do not be restricted by the dogma, and do not live in the ideas of others. Don't let other people's opinions about your inner voice. And most importantly, be brave enough to follow your heart and intuition. Only your own heart and intuition can know your true thoughts. Everything else is secondary.</p>
-            <a class="button callToAction" href="http://www.ythero.com" style="font-size: 14px;">返回首页</a> </div>
+            <p style="margin: 30px 0px 30px 0">Your time is limited, so don't live for others. Do not be restricted by
+              the dogma, and do not live in the ideas of others. Don't let other people's opinions about your inner
+              voice. And most importantly, be brave enough to follow your heart and intuition. Only your own heart and
+              intuition can know your true thoughts. Everything else is secondary.</p>
+            <a class="button callToAction" href="http://www.ythero.com" style="font-size: 14px;">返回首页</a></div>
         </div>
       </div>
     </div>
@@ -61,14 +82,14 @@ Modernizr.load({
         <div class="row">
           <div class="columns large-12 service-img pr20">
             <h3 class="title">Our Services</h3>
-            <p> Choose a set meal before the order, because most of the store is data design, so when the design of shipments, there is no error in running the problem is not support return! When designing knowledge problems, please contact QQ:332628300.</p>
+            <p> Choose a set meal before the order, because most of the store is data design, so when the design of
+              shipments, there is no error in running the problem is not support return! When designing knowledge
+              problems, please contact QQ:332628300.</p>
           </div>
         </div>
 
       </div>
     </div>
-
-
 
 
   </div>
@@ -82,7 +103,7 @@ Modernizr.load({
       <div class="columns large-12 footer-inner" style="padding: 0px 10px 0px 10px!important;">
         <!--PC版-->
         <div id="SOHUCS" sid=""></div>
-        <script charset="utf-8" type="text/javascript" src="https://changyan.sohu.com/upload/changyan.js" ></script>
+        <script charset="utf-8" type="text/javascript" src="https://changyan.sohu.com/upload/changyan.js"></script>
         <script type="text/javascript">
           window.changyan.api.config({
             appid: 'cys9pxi6G',
@@ -96,13 +117,16 @@ Modernizr.load({
     <div class="row">
       <div class="columns large-12 footer-meta-inner">
         <div class="row">
-          <div class="columns large-12" style="color:white"> <span class="email">hyganyutao@163.com</span> <span class="divider">|</span> <span class="tel">QQ:332628300</span> <span class="divider">|</span> <span class="address">Chengdu, 611731, PR China</span> </div>
+          <div class="columns large-12" style="color:white"><span class="email">hyganyutao@163.com</span> <span
+            class="divider">|</span> <span class="tel">QQ:332628300</span> <span class="divider">|</span> <span
+            class="address">Chengdu, 611731, PR China</span></div>
         </div>
         <div class="row">
-          <div class="columns large-12" style="color:white"> &copy; All rights reserved. CourseMall. </div>
+          <div class="columns large-12" style="color:white"> &copy; All rights reserved. CourseMall.</div>
         </div>
         <div class="row">
-          <div class="columns large-12"> <a href="#" class="media facebook"></a><a href="#" class="media twitter"></a><a href="#" class="media reddit"></a><a href="#" class="media youtube"></a> </div>
+          <div class="columns large-12"><a href="#" class="media facebook"></a><a href="#" class="media twitter"></a><a
+            href="#" class="media reddit"></a><a href="#" class="media youtube"></a></div>
         </div>
       </div>
     </div>
