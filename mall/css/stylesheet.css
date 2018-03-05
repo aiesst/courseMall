@@ -19,7 +19,8 @@ body {
   background: #ddd;
   line-height: 1.5em;
   font-family: 'Roboto', sans-serif;
-  background: url('http://gytblog.oss-cn-shenzhen.aliyuncs.com/mall/comment-bg2.jpg');
+  background: url('http://gytblog.oss-cn-shenzhen.aliyuncs.com/mall/slide_one.jpg');
+  background-attachment: fixed;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -390,7 +391,7 @@ input.button.send {
 }
 
 .row .columns.footer-meta-inner {
-  background: url('../images/footermetabg.png');
+  background: url('http://gytblog.oss-cn-shenzhen.aliyuncs.com/mall/comment-bg.jpg');
   box-shadow: inset 0 8px 10px rgba(0, 0, 0, .5);
 }
 
