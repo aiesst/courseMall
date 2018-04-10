@@ -14,7 +14,7 @@
   position: absolute;
   left:35%;
   top:0;
-  background:url(image/fish8.png) no-repeat left top;
+  background:url(image/fish.png) no-repeat left top;
   /*transition:all 0.8s steps(8) ;*/
   animation:active1 0.8s steps(8) infinite;
 
