@@ -64,7 +64,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 .carousel ul li{
   position: absolute;
-  top:26px;
+  top:48px;
 }
 .price-nav{
   margin-top:31%;
@@ -76,7 +76,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     left:10px;
     right:10px;
     position: absolute;
-    top:26px;
+    top:48px;
   }
 
 
@@ -88,7 +88,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     left:10px;
     right:10px;
     position: absolute;
-    top:26px;
+    top:48px;
   }
   .bullet{
     position: absolute;
@@ -105,7 +105,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     left:10px;
     right:10px;
     position: absolute;
-    top:26px;
+    top:48px;
   }
   .bullet{
     position: absolute;
