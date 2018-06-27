@@ -61,26 +61,24 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 .active{
   background-color: red !important;
 }
-
 .carousel ul li{
+  line-height: 0px!important;
   position: absolute;
-  top:48px;
+  top:82px;
 }
 .price-nav{
-  margin-top:33%;
+  margin-top:31%;
   border-radius: 8px;
   box-shadow: 0 6px 12px 0 rgba(7,17,27,.2);
 }
 @media only screen and (max-width: 1528px) {
   .carousel ul li{
+    line-height: 0px!important;
     left:10px;
     right:10px;
     position: absolute;
-    top:48px;
+    top:82px;
   }
-
-
-
 }
 
 @media only screen and (max-width: 1280px) {
@@ -88,7 +86,8 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     left:10px;
     right:10px;
     position: absolute;
-    top:48px;
+    top:82px;
+    line-height: 0px!important;
   }
   .bullet{
     position: absolute;
@@ -105,7 +104,8 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     left:10px;
     right:10px;
     position: absolute;
-    top:48px;
+    top:82px;
+    line-height: 0px!important;
   }
   .bullet{
     position: absolute;
@@ -121,7 +121,8 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     left:-10px;
     right:-10px;
     position: absolute;
-    top:85px;
+    top:82px;
+    line-height: 0px!important;
   }
   .price-nav{
     margin-top:31% !important;
